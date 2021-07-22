@@ -1,5 +1,156 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	}
+
 .list{
 	text-decoration: none;
-	float: left;
 	list-style-type: none;
+	text-align: right;
+	margin-left: 70%;
+	display: block;	
+}
+li{
+	float: left;
+	padding: 10px;
+	text-align: right;
+	font-size: 20px;
+	background-color: aqua;
+	margin-right: 2px;
+	display: inline-block;
+}
+
+li:hover {
+	background-color: rgb(175, 235, 235);
+	padding: 11px;
+	margin-right: 0;
+	color: azure;
+}
+
+h1{
+	clear: left;
+	margin-left: 30px;
+}
+span{
+	color: orange;
+}
+.list-item{
+	height: 120px;
+}
+.four{
+	width: 43%;
+	margin-left: 3%;
+	margin-right: 2%;
+	float: left;
+	height: 600px;
+	
+}
+h1{
+	font-size: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.para-1{
+	font-size: 25px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 8px;
+}
+.link{
+	text-decoration: none;
+	font-size: 30px;
+	background-color: rgb(240, 114, 56);
+	padding: 6px 20px;
+	font-weight: bolder;
+	color: white;
+	border-radius: 10px;
+}
+.profile-image{
+	width: 100%;
+	height: 100%;
+	margin-top: -70px;
+}
+h2{
+	text-align: center;
+}
+
+.first-section{
+	height: 600px;
+	margin-bottom: 20px;
+}
+.second-section {
+clear: both;
+height: 600px;
+margin-bottom: 20px;
+}
+.third{
+	background-color:rgba(245, 244, 244, 0.781);
+	margin: 30px 0px;
+	height: 700px;
+}
+h2{
+	padding-top: 100px;
+}
+.new{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin: 0px 50px;
+	box-shadow: 20px 20px 40px gray;
+	padding: 5px;
+	border-radius: 20px;
+}
+.last{
+	width: 100%;
+	float: left;
+}
+.fourth{
+	height: 300px;
+	width: 60%;
+	display: inline-block;
+	background-image: url("shapes/10.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	}
+h3{
+	margin-top: 245px;
+	padding-top: 25px;
+}
+
+
+
+
+h6{
+font-size: 46px;
+color: white;
+margin-left: 73px;
+margin-top: 116px;
+
+}
+.foot{
+	height: 500px;
+}
+.under{
+	position: relative;
+	margin-top: 170px;
+}
+
+.linkb{
+	text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(240, 114, 56);
+    padding: 6px 20px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    margin-left: 223px;
+}
 }
